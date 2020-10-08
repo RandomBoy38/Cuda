@@ -175,6 +175,8 @@ h1, h2, ul, li {
       letter-spacing: 1px;
       margin-top: 5px;
       color: #55c2e9; }
+    .section2 ul li p {
+      margin: 33px 0 35px; }
     .section2 ul li .social a {
       width: 30px;
       height: 30px;
@@ -182,8 +184,8 @@ h1, h2, ul, li {
       background-color: #bdd1df;
       display: inline-block;
       margin: 0 6px; }
-    .section2 ul li p {
-      margin: 33px 0 35px; }
+      .section2 ul li .social a:hover {
+        transform: scale(1.1); }
     .section2 ul li .fa-facebook-f,
     .section2 ul li .fa-twitter,
     .section2 ul li .fa-envelope {
@@ -192,5 +194,70 @@ h1, h2, ul, li {
       vertical-align: middle;
       position: relative;
       top: 1px; }
+
+.section3 {
+  padding: 120px 0 125px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #3c4761; }
+
+.section3 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 30px; }
+.section3 .line {
+  width: 88px;
+  height: 4px;
+  background-color: #c8d9e5;
+  margin: 22px auto 24px; }
+.section3 h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1px; }
+
+.section3 ul {
+  display: flex; }
+  .section3 ul li {
+    display: inline-block;
+    margin: 0 auto;
+    position: relative; }
+  .section3 ul svg {
+    margin: 88px 0 25px; }
+  .section3 ul span {
+    font-size: 32px;
+    font-weight: 300; }
+
+circle {
+  fill: transparent;
+  stroke-width: 12px; }
+
+.underlay {
+  stroke: #dfe8ed; }
+
+.webdesign {
+  stroke: #30bae7; }
+
+.html-css {
+  stroke: #d74680; }
+
+.graphicdesign {
+  stroke: #15c7a8; }
+
+.ui-ux {
+  stroke: #eb7d4b; }
+
+.per {
+  position: absolute;
+  bottom: 60px;
+  left: 30%;
+  font-size: 50px;
+  font-weight: 300; }
+
+.skills {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */
