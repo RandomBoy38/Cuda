@@ -262,7 +262,7 @@ circle {
 
 .section4 {
   background-color: #ffdd99;
-  padding: 110px 0;
+  padding: 110px 0 44px 0;
   text-align: center;
   color: #393939; }
 
@@ -318,7 +318,27 @@ circle {
     color: #393939;
     font-weight: 600;
     margin: 33px 0 66px; }
-    .gallery ul .describe:nth-child(3), .gallery ul .describe:nth-child(4) {
-      margin-bottom: 0 !important; }
+
+.section5 {
+  padding: 120px 0;
+  background-color: #d74680;
+  text-align: center;
+  color: #fff; }
+
+.section5 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 30px; }
+.section5 .line {
+  width: 88px;
+  height: 4px;
+  background-color: #b73c6d;
+  margin: 22px auto 24px; }
+.section5 h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1px; }
 
 /*# sourceMappingURL=style.css.map */
