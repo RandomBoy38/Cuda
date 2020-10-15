@@ -124,6 +124,21 @@ h1, h2, ul, li {
   position: relative;
   top: -10px; }
 
+.light-box-close {
+  display: none;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 20; }
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin-top: 6px;
+  border-radius: 3px; }
+
 .box1, .box2, .box3 {
   width: 30px;
   height: 4px;
@@ -174,6 +189,17 @@ h1, h2, ul, li {
     background-color: #3c5499; }
     .nav-bg .contact:hover {
       background-color: #364c8a; }
+
+.arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  font-size: 50px;
+  color: white;
+  cursor: pointer; }
+
+.arrow:hover {
+  transform: scale(1.1); }
 
 .section1 {
   background-color: #17c2a4;
@@ -500,6 +526,18 @@ circle {
     /* 33/18 */
     /* 66/18 */ }
 
+.divko {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  text-align: center; }
+  .divko img {
+    position: relative;
+    top: 30%; }
+
 .section5 {
   padding: 7.5em 0 8.125em;
   /* 120/16 */
@@ -720,7 +758,9 @@ footer {
       padding-top: 80px; }
     header .nav-bg a {
       font-size: 15px;
-      line-height: 50px; } }
+      line-height: 50px; }
+    header .boxes {
+      top: 0; } }
 @media (max-width: 730px) {
   .section1 br {
     display: none; } }
