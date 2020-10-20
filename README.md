@@ -1,2 +1,2 @@
 # Cuda
-www
+Posledný nakódovaný webdesign.
